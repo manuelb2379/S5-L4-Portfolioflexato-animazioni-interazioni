@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Progetto-settimana-1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=minimize" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <!--Blocco header/nav-->
+
+    <header id="siteHeader">
+        <h1 id="start">Manuel Burgalassi</h1>
+        <p class="tagline"><b>Studente Full Stack</b> corso Epicode 2026 </p>
+
+        <nav>
+            <ul>
+                <li><a href="#chiSono"><i class="fa-solid fa-user"></i> Chi sono</a></li>
+                <li><a href="#competenze"><i class="fa-solid fa-gauge"></i> Competenze</a></li>
+                <li><a href="#esperienze"><i class="fa-solid fa-briefcase"></i> Esperienze</a></li>
+                <li><a href="#progetti"><i class="fa-etch fa-solid fa-folder"></i> Progetti</a></li>
+                <li><a href="#contatti"><i class="fa-solid fa-envelope"></i> Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Blocco main-->
+
+    <main>
+        <section id="chiSono">
+            <!--Chi sono-->
+            <h2>Chi sono</h2>
+
+            <img class="avatar" src="assets/img/foto.jpg" alt="foto-profilo" width="200" />
+
+
+            <div>
+                <p class="intro">Mi chiamo Manuel Burgalassi e sto imparando a programmare. Studio sviluppo web con
+                    <b>Epicode</b> e
+                    ogni giorno aggiungo qualcosa di nuovo a questa pagnina, man mano che li incontro durante le
+                    lezioni.
+                </p>
+            
+                <p>Vivo a San Vincenzo. Ho una formazione precedente in <i>ragioneria</i> e ora sto cambiando
+                    settore.
+                    Cerco un primo ruolo come sviluppatore frontend.</p>
+            </div>
+
+        </section>
+        <div>
+            <p><a href="#chiSono">Torna alla selezione pincipale</a></p>
+        </div>
+        <!--Competenze-->
+        <section id="competenze">
+            <h2>Competenze</h2>
+            <div>
+                <p>Le tecnologie che abbiamo visto durante le prime settimane.</p>
+            </div>
+            <div id="bottoneCompetenze">
+                <div>
+                    <button type="button" class="btnHtml">HTML</button>
+                </div>
+                <div>
+                    <button type="button" class="btnCss">CSS</button>
+                </div>
+                <div>
+                    <button type="button" class="btnGit">GIT & GITHUB</button>
+                </div>
+                <div>
+                    <button type="button" class="btnVsCode">Visual Studio Code</button>
+                </div>
+            </div>
+        </section>
+
+        <div>
+            <p><a href="#chiSono">Torna alla selezione pincipale</a></p>
+        </div>
+        <!--Esperienze formative e lavorative-->
+        <section id="esperienze">
+
+            <h2>Esperienze</h2>
+            <p>Un breve riepilogo del mio percorso formativo e lavorativo recente.</p>
+            <div class="tableWrapper">
+                <table class="table" id="eTab">
+                    <p id="capE">Esperienze formative e lavorative</p>
+                    <thead>
+                        <tr>
+                            <th scope="col" class="compTab">Anno</th>
+                            <th scope="col" class="compTab">Ruolo</th>
+                            <th scope="col" class="compTab">Azienda</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2026</td>
+                            <td>Studente Full-Stack AI Developer</td>
+                            <td>Epicode</td>
+                        </tr>
+                        <tr>
+                            <td>2023 - 2026</td>
+                            <td>Apprendista impiegato contabile</td>
+                            <td>Studio Sistema snc</td>
+                        </tr>
+                        <tr>
+                            <td>2017 - 2023</td>
+                            <td>Capo cuoco e responsabile locale</td>
+                            <td>Casotto Pub snc</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <div>
+            <p><a href="#chiSono">Torna alla selezione pincipale</a></p>
+        </div>
+        <!--Progetti-->
+        <section id="progetti">
+
+            <h2>Progetti</h2>
+            <div>
+                <p>I lavori fatti durante le prime settimane di corso.</p>
+            </div>
+            <div class="listaProgetti">
+                <article class="project">
+                    <h3>Pagina di presentazione<span class="new">NEW</span></h3>
+                    <p>La mia prima pagina di presentazione.
+                        <br><br>
+                        <a href="https://github.com/manuelb2379/Epicode-S1-Portfolio" target="_blank"><i
+                                class="git fa-brands fa-github"></i>Vedi su GitHub</a>
+                    </p>
+                </article>
+                <article class="project" id="second">
+                    <h3>I paesaggi della toscana</h3>
+                    <p>Ecco 6 posti della toscana da non perdersi assolutamente.
+                        <br><br><a href="https://github.com/manuelb2379/Epicode-challenge-3" target="_blank"><i
+                                class="git fa-brands fa-github"></i>Vedi su GitHub</a>
+                    </p>
+                </article>
+                <article class="project">
+                    <h3>Clone di Youtube</h3>
+                    <p>Il mio primo tentativo di replica della home page di Youtube.
+                        <br><br><a href="https://github.com/manuelb2379/Epicode-challenge-4-YouTube" target="_blank"><i
+                                class="git fa-brands fa-github"></i> Vedi su GitHub</a>
+                    </p>
+                </article>
+            </div>
+            <article class="dettagli">
+                <a href="progetti.html"><i class="fas fa-arrow-right"></i> Tutti i progetti in dettaglio</a>
+
+            </article>
+        </section>
+        <div>
+            <p><a href="#chiSono">Torna alla selezione pincipale</a></p>
+        </div>
+
+
+        <!--Contattami-->
+        <section id="contatti">
+            <aside>
+                <div>
+                    <h2>Contattami</h2>
+                    <P>Clicca il bottone sottostante per aprire il form da compilare.</P>
+                    <button type="button" id="apriModale">APRI IL FORM</button>
+                </div>
+
+                <div class="overlay">
+                    <div class="modale">
+                        <button class="posizioneChiusura chiudiModale">✖</button>
+                        <p>Compila il seguente form per notificarmi. Ti risponderò entro 24 ore.</p>
+
+                        <!--Form da compilare per contattarmi-->
+
+                        <form action="grazie.html" method="get">
+                            <label for="nome">Nome</label>
+                            <div>
+                                <input type="text" placeholder="Il tuo nome" id="nome" name="nome" required>
+                            </div>
+                            <br />
+                            <label for="email">Email</label>
+                            <div>
+                                <input type="email" placeholder="esempio@esempio.it" id="email" name="email" required>
+                            </div>
+                            <br />
+                            <label for="why">Motivo del contatto</label>
+                            <div>
+                                <select id="why" name="why" required>
+                                    <option value="" selected></option>
+                                    <option value="ODL">Offerta di lavoro</option>
+                                    <option value="CI">Colloquio informale</option>
+                                    <option value="RI">Richiesta informazioni</option>
+                                </select>
+                            </div>
+                            <br />
+                            <label for="date">Data preferita per la risposta</label>
+                            <div>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <br />
+                            <label for="message">Messaggio</label>
+                            <div>
+                                <textarea id="message" name="message" rows="5"
+                                    placeholder="Scrivi qui il tuo mesaggio...." required></textarea>
+                            </div>
+                            <br />
+                            <div>
+                                <input class="box" type="checkbox" id="recontact" name="recontact" value="on" required>
+                                <label for="recontact">Accetto di essere ricontattato all'indirizzo indicato</label>
+                            </div>
+                            <br />
+                            <div class="bottoneInvio">
+                                <button class="send" type="submit"><i class="fas fa-paper-plane"></i> Invia</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </aside>
+        </section>
+        <div>
+            <p><a href="#chiSono">Torna alla selezione pincipale</a></p>
+        </div>
+        <div class="freccia">
+            <a href="#chiSono">
+                <div id="paginaSu"></div>
+            </a>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer id="siteFooter">
+        <ul class="iconFoot">
+
+            <li>
+                <a href="javascript:void(0)"><i class="fab fa-github-square"></i></a>
+            </li>
+            <li>
+                <a href="javascript:void(0)"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="javascript:void(0)"><i class="fas fa-envelope"></i></a>
+            </li>
+            <li>
+                <a href="javascript:void(0)"><i class="fas fa-globe"></i></a>
+            </li>
+        </ul>
+        <p class="scritta"><br>© 2026 Manuel Burgalassi <span class="material-symbols-outlined"
+                id="fLine">minimize</span> Costruito a
+            mano durante la prima settimana del corso Epicode
+        </p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
