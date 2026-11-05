@@ -10,17 +10,17 @@ const recontact = document.querySelector('#recontact')
 
 apriModale.addEventListener('click', (e) => {
 	e.preventDefault();
-	overlay.style.display = 'block';
+	overlay.removeAttribute('hidden')
 });
 
 chiudiModale.addEventListener('click', (e) => {
 	e.preventDefault();
-	overlay.style.display = 'none';
+	overlay.setAttribute('hidden', '');
 });
 
 overlay.addEventListener('click', (e) => {
 	if(e.target === overlay)
-	overlay.style.display = 'none';
+	overlay.setAttribute('hidden', '');
 });
 
 myForm.addEventListener('submit', (e) => {
